@@ -5,3 +5,6 @@ Desarrollo de trabajo practico n
 
 1.Noel Chiliguay - usuario: NoelChiliguay
 2.Jesus Cabrera - usuario: jesuscabrera22
+3.Quipildor Adriana  - usuario adriquipildor
+4.sivila lucas - usuario: santtiago8
+5.Aparicio Carlos - usuario: Carlosfiunju
