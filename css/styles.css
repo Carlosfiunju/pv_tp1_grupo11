@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial, sans-serif;
+    background-color: darkgray;
+}
+/*Navegacion Principal comun a todas las paginas*/
+.nav__principal {
+    background-image: url(../img/escudo.png);
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 20px;
+}
+/*Navegacion de cada pagina*/
+nav ul li{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav__inicio {
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    text-align: center;
+    border: 10%;
+}
+.nav__inicio ul li {
+    margin-left: 35px
+}
+/*Headers comunes a todas las paginas*/
+header {
+text-align: center;
+color: white;
+}
+.header__inicio {
+    padding: 5%;
+    background-image: url(https://www.plataforma10.com.ar/viajes/wp-content/uploads/2023/05/misiones.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+}
+.header__museos {
+    padding: 12%;
+    background-image: url(https://www.ellitoral.com/images/2024/09/16/uHMyiyMx__1300x655__1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+}
+.header__contacto {
+    padding: 12%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f1/Cartel_Provincia_de_Misiones_-_Bienvenidos_a_la_Tierra_Colorada_%2802%29_al_mediod%C3%ADa.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+}
+
+
