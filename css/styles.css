@@ -63,5 +63,88 @@ color: white;
     background-repeat: no-repeat;
     box-sizing: content-box;
 }
-
+/*Contenedores para las tarjetas*/
+main section h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+.section__imagen {
+    display: grid;
+    place-items: center;
+}
+main section p {
+    text-align: center;
+    padding: 10px;
+    background-color: azure;
+}
+main section img {
+   display: grid;
+   place-items: center;
+   padding-top: 10px;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#main__contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+#herencia {
+    max-width: 100%;
+    margin: 20px;
+    background-color: azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
+#jesuiticas {
+    max-width: 100%;
+    margin: 20px;
+    background-color: azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
+#musica_danza {
+    max-width: 100%;
+    margin: 20px;
+    background-color: azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
+#gastronomia {
+    max-width: 100%;
+    margin: 20px;
+    background-color: azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
+#fiesta_tradiciones {
+    max-width: 100%;
+    margin: 20px;
+    background-color: azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
+/*Aside*/
+    
+/*Footer*/
+footer {
+    background-color: lightskyblue;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
 
