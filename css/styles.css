@@ -147,4 +147,26 @@ footer {
     text-decoration: none;
     color: white;
 }
-
+.div_contacto{
+    background-color: lightskyblue;
+    padding: 40px;   
+}
+.formulario{
+    background-color: darkgrey;
+    padding: 20px;
+}
+.formulario_input{
+    width: 500px;
+ padding: 10px;
+   
+}
+.formulario_msj{
+    width: 350px;
+    height: 150px;
+   text-align;
+}
+.formulario_submit{
+    padding: 20px;
+    margin-left: 20px;
+    
+}
