@@ -82,6 +82,8 @@ main section img {
    display: grid;
    place-items: center;
    padding-top: 10px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 #main {
     display: flex;
@@ -138,6 +140,15 @@ main section img {
     overflow: hidden;
     font-family: arial, sans-serif;
 }
+#naturaleza{
+    max-width: 100%;
+    margin: 20px;
+    background-color: azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
 /*Aside*/
     
 /*Footer*/
@@ -168,5 +179,29 @@ footer {
 .formulario_submit{
     padding: 20px;
     margin-left: 20px;
-    
+    background-color: #00695c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+.formulario_submit:hover {
+    background-color: #004d40;
+}
+aside {
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+aside ul li a {
+    color: #004d40;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
 }
